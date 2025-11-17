@@ -26,5 +26,5 @@ async def start_cmd(client, message):
         reply_markup=btns,
         message_effect_id=MSG_EFFECT, 
         quote=True,
-        spoiler=True
+        has_spoiler=True
                    )
