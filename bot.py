@@ -21,4 +21,7 @@ Bot = Client(
 )
 
 Bot.start()
+print("Echo Client started.")
+
 Bot.me = Bot.get_me()
+print(f"Echo Bot Started: {Bot.me.username}")
