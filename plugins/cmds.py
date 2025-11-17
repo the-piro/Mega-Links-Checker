@@ -1,8 +1,13 @@
 import re
 from pyrogram import Client, filters
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from xtra import check_cmd, LINK_REGEX
 
 WELCOME = "Hello! Send me any MEGA link and I will check it."
+
+btns = InlineKeyboardMarkup(
+    [[InlineKeyboardButton("Repo", url="https://github.com/XalFH/Mega-Links-Checker")]]
+)
 
 @Client.on_message((filters.text | filters.caption) & ~filters.command(["start"]))
 async def auto_check_mega(client, message):
@@ -13,4 +18,8 @@ async def auto_check_mega(client, message):
 
 @Client.on_message(filters.command("start"))
 async def start_cmd(client, message):
-    await message.reply_text(WELCOME, quote=True)
+    await message.reply_text(
+        WELCOME,
+        reply_markup=btns,
+        quote=True
+    )
