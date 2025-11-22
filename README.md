@@ -1,4 +1,4 @@
-# Mega-Links-Checker
+# Mega Links Checker Bot
 
 Telegram bot to check MEGA.nz links, shows file/folder names, sizes, lists files.
 
@@ -7,7 +7,7 @@ Telegram bot to check MEGA.nz links, shows file/folder names, sizes, lists files
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/the-piro/Mega-Links-Checker)
 
-## Deploy on VPS 
+Deploy on VPS 
 
 1. **Clone the repository:**
    ```sh
