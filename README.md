@@ -2,7 +2,10 @@
 
 Telegram bot to check MEGA.nz links, shows file/folder names, sizes, lists files.
 
-## VPS/Local Deployment 
+## Deploy on Heroku 
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/XalFH/Mega-Links-Checker)
+
+## Deploy on VPS 
 
 1. **Clone the repository:**
    ```sh
