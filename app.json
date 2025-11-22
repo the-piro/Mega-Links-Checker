@@ -1,6 +1,6 @@
 {
   "name": "Mega-Links-Checker",
-  "description": "Telegram bot to check MEGA links, showing names, sizes, and direct link previews.",
+  "description": "Telegram bot to check MEGA links, showing names, size.",
   "repository": "https://github.com/XalFH/Mega-Links-Checker",
   "keywords": ["telegram", "bot", "mega", "file-checker"],
   "env": {
