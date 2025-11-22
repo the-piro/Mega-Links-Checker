@@ -1,25 +1,24 @@
-## VPS Deployment 
+# Mega-Links-Checker
 
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/XalFH/Mega-Links-Checker.git
-    cd Mega-Links-Checker
-    ```
+Telegram bot to check MEGA.nz links, shows file/folder names, sizes, lists files.
 
-2. Install dependencies:
-    ```sh
-    pip install -r requirements.txt
-    ```
+## VPS/Local Deployment 
 
-3. Run bot
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/XalFH/Mega-Links-Checker.git
+   cd Mega-Links-Checker
+   ```
 
-```sh
-python3 main.py
+2. **Install dependencies:**
+   ```sh
+   pip install -r requirements.txt
+   ```
 
-```
+3. **Configure:**
+   - Edit `config.py` with your Telegram API key and other settings
 
-## Support
-
-For any issues or questions, open an [issue](https://github.com/XalFH/Mega-Links-Checker/issues).
-
----
+4. **Run the bot:**
+   ```sh
+   python3 main.py
+   ```
